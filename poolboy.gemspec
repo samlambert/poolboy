@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sam@ninjapanda.co.uk"]
   spec.description   = %q{See the status of your Percona Server buffer pool}
   spec.summary       = %q{Poolboy lets you view the data in your buffer pool}
-  spec.homepage      = "http://www.samlambert.com"
+  spec.homepage      = "https://github.com/samlambert/poolboy/issues"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
