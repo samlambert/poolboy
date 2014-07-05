@@ -1,4 +1,4 @@
-## I no longer maintain poolboy, I might pick it up again in the future but right now nope.
+### I no longer maintain poolboy, I might pick it up again in the future but right now I don't have time.
 
 # Poolboy
 
