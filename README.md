@@ -1,3 +1,5 @@
+### I no longer maintain poolboy, I might pick it up again in the future but right now I don't have time.
+
 # Poolboy
 
 Poolboy is a command line tool that allows you to see information about the MySQL buffer pool as well as the buffered indexes.
@@ -73,8 +75,3 @@ Move option parsing into a class
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-
-## Thanks
-[Philip Poots](https://github.com/pootsbook) for helping me out and answering my questions about Ruby.
-
-Peter Zaitsev for inspiring me to build Poolboy with this [post.](http://www.mysqlperformanceblog.com/2010/12/09/how-well-does-your-table-fits-in-innodb-buffer-pool/)
