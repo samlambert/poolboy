@@ -26,6 +26,9 @@ module Poolboy
       opts.on("-r REFRESH", Integer, "Refresh interval") do |r|
         options[:refresh] = r >= 1 ? r : 1
       end
+      opts.on("-s SOCKET", "MySQL socket") do |s|
+        options[:socket] = s
+      end
       options[:refresh] = options.has_key?(:refresh) ? options[:refresh] : 5
       opts.on("-f", "Force skipping of Percona Server check") do |r|
         options[:force] = true
